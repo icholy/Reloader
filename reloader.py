@@ -173,7 +173,7 @@ if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--path', dest='path', help='the directory to monitor')
-    parser.add_argument('-s','--strict', dest='strict', action='store_true')
+    parser.add_argument('-s','--strict', dest='strict', action='store_true', help='only watch: ' + " ".join(extentions))
     parser.add_argument('-v', '--verbose', dest='verbose', action='store_true')
     options = parser.parse_args()
        

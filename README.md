@@ -32,7 +32,7 @@ usage: reloader.py [-h] [-p PATH] [-s] [-v]
 optional arguments:
   -h, --help            show this help message and exit
   -p PATH, --path PATH  the directory to monitor
-  -s, --strict
+  -s, --strict          only watch: css xml html php js asp png jpeg jpg gif
   -v, --verbose
 ```
 
