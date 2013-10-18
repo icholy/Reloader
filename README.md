@@ -24,6 +24,19 @@ Add this tag to your html:
 <script type="text/javascript" src="http://127.0.0.1:8181/js"></script>
 ```
 
+### Options:
+
+```
+usage: reloader.py [-h] [-p PATH] [-s] [-v]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PATH, --path PATH  the directory to monitor
+  -s, --strict
+  -v, --verbose
+```
+
+
 ### Tested Browsers:
 
 * firefox 4
