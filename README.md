@@ -13,7 +13,7 @@ $ pip install pyinotify
 
 ### Usage:
 
-Start the server
+Start the server:
 
 ``` sh
 $ python reloader.py --path /var/www/projectdir/ --strict
